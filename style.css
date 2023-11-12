@@ -1,0 +1,49 @@
+body {
+    background-image: url("images/minimalizm-gradient-background.jpg");
+    display: flex;
+    font-family: ;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+main {
+    display: flexbox;
+    align-items: space-around;
+    margin-top: 100px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+fieldset legend {
+    color: rgb(152, 255, 214);
+    margin-top: 20px;
+    font-family: "Audiowide", sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+fieldset .legendivs {
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0px 200px 0px 200px;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.legendivs, .buttons {
+    font-family: 'Russo One', sans-serif;
+}
+
+.legendivs label {
+    padding-right: 10px;
+}
